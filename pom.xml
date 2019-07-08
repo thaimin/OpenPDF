@@ -30,11 +30,11 @@
     <name>OpenPDF - Free and Open PDF</name>
     <url>https://github.com/LibrePDF/OpenPDF</url>
     <description>Open and Free PDF library.</description>
-    <scm>
-        <url>scm:git:https://github.com/LibrePDF/OpenPDF</url>
-        <connection>scm:git:https://github.com/LibrePDF/OpenPDF</connection>
-        <developerConnection>scm:git:https://github.com/LibrePDF/OpenPDF</developerConnection>
-    </scm>
+    <!--<scm>-->
+        <!--<url>scm:git:https://github.com/LibrePDF/OpenPDF</url>-->
+        <!--<connection>scm:git:https://github.com/LibrePDF/OpenPDF</connection>-->
+        <!--<developerConnection>scm:git:https://github.com/LibrePDF/OpenPDF</developerConnection>-->
+    <!--</scm>-->
 
     <properties>
         <java.version>1.8</java.version>
@@ -354,5 +354,6 @@
             <!--<url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
         <!--</snapshotRepository>-->
     <!--</distributionManagement>-->
+
 
 </project>
