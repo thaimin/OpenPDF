@@ -20,7 +20,7 @@ public class DocumentTest {
         String versionFromPomNormalized = versionFromPom.replace('-', '.');
         // Then
         Assertions.assertTrue(
-            versionInCode.endsWith(versionFromPomNormalized),
+            versionInCode.endsWith(versionFromPom),
             String.format(ERROR_MESSAGE_TEMPLATE, versionInCode, versionFromPom));
     }
 

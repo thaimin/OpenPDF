@@ -29,7 +29,7 @@ public class CleanMetaDataTest {
 		document.close();
 
 		try (PdfReader r = new PdfReader(baos.toByteArray())) {
-			Assertions.assertNull(r.getInfo().get("Producer"));
+			Assertions.assertEquals(r.getInfo().get("Producer"), "");
 		}
 		
 	}
